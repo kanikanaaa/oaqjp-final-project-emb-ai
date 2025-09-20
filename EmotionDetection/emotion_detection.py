@@ -42,4 +42,3 @@ def emotion_detector(text_to_analyse):
     "joy": joy, 
     "sadness": sadness,
     "dominant_emotion": dominant_emotion}
-    # return response.text
