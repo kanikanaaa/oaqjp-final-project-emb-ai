@@ -21,7 +21,7 @@ def emo_detector():
 
     # Return a formatted string 
     # return response
-    return "For the given statement, the system response is 'anger': {}, 'disgust': {}, 'fear': {}, 'joy': {} and 'sadness': {}. The dominant emotion is {}.".(anger, disgust,fear, joy, sadness, dominant_emotion)
+    return "For the given statement, the system response is 'anger': {}, 'disgust': {}, 'fear': {}, 'joy': {} and 'sadness': {}. The dominant emotion is {}.".format(anger, disgust, fear, joy, sadness, dominant_emotion)
 
 
 @app.route("/")
